@@ -1,0 +1,15 @@
+Ok…some direction on how to build this ROM…it is only set up for Nexus Devices at the moment
+
+1. Pulling the repo
+repo init -u hppts://github.com/WarpedRom/android.git -b master
+repo sync
+
+2. Compiling the rom
+. build/envsetup.sh
+lunch
+choose your nexus device (warped_toro-userdebug, warped_toroplus-userdebug, or warped_maguro-userdebug)
+make otapackage -j# (where # is the the number of cores in your computer)
+
+3. BEFORE FLASHING THE ROM, you must place the rom's updater-script into the zip file using a program like 7Zip. They are located in this folder and must be renamed to updater-script and placed in the following directory of the zip.
+
+META-INF/com/google/android/
