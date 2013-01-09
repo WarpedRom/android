@@ -362,5 +362,9 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="cm-10.1" />
+  <project path="system/su" name="android_system_su" remote="cm" revision="cm-10.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="aokp" revision="jb" />
 
 </manifest>
