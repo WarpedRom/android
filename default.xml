@@ -365,6 +365,6 @@
   
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="cm-10.1" />
   <project path="system/su" name="android_system_su" remote="cm" revision="cm-10.1" />
-  <project path="external/busybox" name="android_external_busybox" remote="aokp" revision="jb" />
+  <project path="external/busybox" name="android_external_busybox" remote="aokp" revision="jellybean" />
 
 </manifest>
