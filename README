@@ -1,15 +1,23 @@
-Ok…some direction on how to build this ROM…it is only set up for Nexus Devices at the moment
+Ok, some direction on how to build this ROM. it is only set up for Nexus Devices at the moment
+0. Make working directory by creating folder in your home directory called warped
 
 1. Pulling the repo
 repo init -u hppts://github.com/WarpedRom/android.git -b master
 repo sync
 
-2. Compiling the rom
+2. Getting the Linaro Compiler used in this build:
+Do the following commands from terminal one at a time:
+
+cd ~/warped
+cd prebuilts/gcc/linux-x86/arm/
+wget http://releases.linaro.org/13.01/components/android/toolchain/4.7/android-toolchain-eabi-linaro-4.7-2013.01-1-2013-01-17_01-27-05-linux-x86.tar.bz2
+bunzip2 *.tar.bz2
+tar -xvf *.tar
+cd ~/warped
+
+3. Compiling the rom
 . build/envsetup.sh
 lunch
 choose your nexus device (warped_toro-userdebug, warped_toroplus-userdebug, or warped_maguro-userdebug)
 make otapackage -j# (where # is the the number of cores in your computer)
 
-3. BEFORE FLASHING THE ROM, you must place the rom's updater-script into the zip file using a program like 7Zip. They are located in this folder and must be renamed to updater-script and placed in the following directory of the zip.
-
-META-INF/com/google/android/
