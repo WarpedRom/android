@@ -2,7 +2,7 @@ Ok, some direction on how to build this ROM. it is only set up for Nexus Devices
 0. Make working directory by creating folder in your home directory called warped
 
 1. Pulling the repo
-repo init -u hppts://github.com/WarpedRom/android.git -b master
+repo init -u https://github.com/WarpedRom/android.git -b master
 repo sync
 
 2. Getting the Linaro Compiler used in this build:
