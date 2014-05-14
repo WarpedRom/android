@@ -77,22 +77,6 @@
   <project path="device/asus/flo" name="X-ROM/android_device_asus_flo" />
   <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" remote="cm" revision="cm-11.0" />
   <project path="device/asus/tilapia" name="CyanogenMod/android_device_asus_tilapia" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/aries-common" name="X-ROM/android_device_samsung_aries-common" />
-  <project path="device/samsung/ariesve" name="AriesVE-DevCon-TEAM/android_device_samsung_ariesve" remote="cm" revision="cm-11.0_ion_pmem_adsp" />
-  <project path="device/samsung/crespo" name="X-ROM/android_device_samsung_crespo" />
-  <project path="device/samsung/d2lte" name="X-ROM/android_device_samsung_d2lte" />
-  <project path="device/samsung/galaxysmtd" name="X-ROM/android_device_samsung_galaxysmtd" />
-  <project path="device/samsung/hlte" name="X-ROM/android_device_samsung_hlte" />
-  <project path="device/samsung/i9100" name="X-ROM/android_device_samsung_i9100" />
-  <project path="device/samsung/i9300" name="X-ROM/android_device_samsung_i9300" />
-  <project path="device/samsung/i9305" name="X-ROM/android_device_samsung_i9305" />
-  <project path="device/samsung/jflte" name="X-ROM/android_device_samsung_jflte" />
-  <project path="device/samsung/n7000" name="X-ROM/android_device_samsung_n7000" />
-  <project path="device/samsung/n7100" name="CyanogenMod/android_device_samsung_n7100" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/maguro" name="X-ROM/android_device_samsung_maguro" />
-  <project path="device/samsung/tuna" name="X-ROM/android_device_samsung_tuna" />
-  <project path="device/samsung/toro" name="CyanogenMod/android_device_samsung_toro" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/toroplus" name="CyanogenMod/android_device_samsung_toroplus" remote="cm" revision="cm-11.0" />
   <project path="device/htc/m8" name="CyanogenMod/android_device_htc_m8" remote="cm" revision="cm-11.0" />
   <project path="device/htc/m7-common" name="X-ROM/android_device_htc_m7-common" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="cm" revision="cm-11.0" />
@@ -104,17 +88,9 @@
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
   
   <!-- Kernel Sources -->
-  <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/crespo" name="CyanogenMod/android_kernel_samsung_crespo" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm" revision="cm-11.0" />
   <project path="kernel/lge/mako" name="CarbonDev/android_kernel_lge_mako" remote="cr" revision="kk" />
-  <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/msm7x30" name="AriesVE-DevCon-TEAM/samsung-kernel-msm7x30" remote="cm" revision="cm-11.0_ion_pmem_adsp" />
   <project path="kernel/lge/msm8974" name="CyanogenMod/android_kernel_lge_msm8974" remote="cm" revision="cm-11.0"/>
-  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-11.0" />
-  <project path="kernel/samsung/tuna" name="X-ROM/android_kernel_samsung_tuna" />
-  <project path="kernel/samsung/smdk4412" name="omnirom/android_kernel_samsung_smdk4412" remote="gh" revision="android-4.4" />
   <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="cm" revision="cm-11.0" />
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="cm" revision="cm-11.0" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
@@ -556,7 +532,5 @@
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="gh" revision="cm-11.0" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-11.0" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="gh" revision="cm-11.0" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="cm-11.0" />
-  <project path="vendor/samsung/ariesve" name="AriesVE-DevCon-TEAM/android_vendor_samsung_ariesve" remote="cm" revision="cm-11.0_ion" />
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="gh" revision="cm-11.0" />
 </manifest>
