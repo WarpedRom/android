@@ -86,6 +86,7 @@
   <project path="device/samsung/galaxys2-common" name="X-ROM/android_device_samsung_galaxys2-common" />
   <project path="device/samsung/smdk4412-common" name="X-ROM/android_device_samsung_smdk4412-common" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
+  <project path="device/htc/dlx" name="jamiethemorris/crom_device_htc-dlx" remote="gh" revision="kitkat" />
   
   <!-- Kernel Sources -->
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm" revision="cm-11.0" />
